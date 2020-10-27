@@ -1,13 +1,13 @@
-/*  This is the Portfolio Style Sheet */
+/*****************************************  THIS IS THE PORTFDOLIO STYLE SHEET **************************************/
 
-/* Tell browser to fit box sizing calculations */
+/**___________________________________ Tell browser to fit box sizing calculations ________________________________*/
 *,
 *:before,
 *:after {
   box-sizing: inherit;
 }
 
-/* Set background colour and remove browser margins */
+/*____________________________________ Set background colour and remove browser margins ___________________________*/
 body {
     margin: 5px;
     padding: 10px;
@@ -29,7 +29,7 @@ a:hover { color: yellow; background:pink;}
 .work-images:hover  { opacity: 1}
   }  
 
-/* This is the hero style */
+/************************************************* HERO SECTION STYLE ********************************************/
 
 .hero {
     width: 100%;
@@ -42,9 +42,8 @@ a:hover { color: yellow; background:pink;}
     position: relative;
 
 }
-/* Hero Style End */
 
-/* navigation style */
+/*********************************************** NAVIGATION SECTION STYLE ******************************************/
 
 header {
     padding: 10px 20px;
@@ -68,7 +67,7 @@ nav ul li {
     padding: 15px;
   }
 
-  /* nav bar header style */
+  /************************************************* NAVE BAR HEADER STYLE ******************************************/
 h1 {
     font-weight: bold;
     font-size: 36px;
@@ -79,7 +78,7 @@ h1 {
     color: pink;    
 }
 
-/* Flex Container Style */
+/*************************************************** MAIN BODY STYLES **********************************************/
 .flex-container {
     display: inline-flex;
     flex-wrap: wrap;
@@ -89,7 +88,6 @@ h1 {
     font-weight: bold;
 }
 
-/* Flex Item Style */
 .flex-item {
     display: flex;
     flex-direction: row;
@@ -115,7 +113,6 @@ h1 {
    text-align: center;
   }
 
-  /* Section title styles */
   .section-title {  
     font-size: 36px;
     color: purple;
@@ -131,7 +128,7 @@ h1 {
       padding: 20px;
     }
 
-/* Works flex items styles */
+/**************************************************** WORKS STYLES ************************************************/
     h3 {
       color:pink;
       font-size: 20px;   
@@ -158,7 +155,7 @@ h1 {
     width: 30%;
 }
 
-  /* About Section style */
+  /************************************************ ABOUT SECTION STYLE *******************************************/
   .about-image {
       width: 27%;
       height: 27%;
